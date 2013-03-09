@@ -29,19 +29,36 @@
 
 \onehalfspace
 	\section{Introduction} 
-		Kaiser Permanente is a managed care consortium based in northern California. It has almost 15,000 physicians operating in 650 facilities, and servesnearly 9 million members \cite{Rauber}.
+		def CVD 
+		In 1994, Cardiovascular disease killed a half million women and accounted for over 40\% of all deaths in women, more than all forms of cancer combined\cite{AHA1997}.
+		Even though there has been an overall decline in the death rate due to cardiovascular disease in the United States over several decades, the rate of decline is less for women and especially african-american women \cite{Mosca1997}.
+		While men are more commonly affected by cardiovascular disease, risk increases rabpidly in women as they age, doubles every decade after age 55\cite{Gordon1978}. 
+		It has been shown that reduced circulating ostradiol during menopause increases atherogenic lipids and reduces carotid blood flow, causing increased incidence of athersclerotic cardiovascular disease \cite{Hodis}.
+		Menopause is the abcence of a menstural cycle in the previous 12 months, and occurs at an average age of 51 but can range between 45 and 55 years \cite{Gold2012}. 
+		Supplamental oestrogen has been used for some time to treat symptoms of menopause and its associated increase in athersclerotic cardiovascular disease risk, however serious side effects ( higher risk of breast cancer, increased blood clots and endometrial cancer) have been documented \cite{Gold2012}.
+		Recent research has also questioned the cardiovascular protection associated with menopausal hormonal therapy and concluded no overall benfit to supplamental estrogen overall\cite{Anderson2004}.
+
+
+		This radomized clinical trial is designed to assess the effects of intiating estradiol supplementation at diffent doses and different times following the onset of menopause on the risk of athersclerotic cardiovascular disease.
+		
 
 
 	\section{Methods} 
-		post menopausal women (defined as no menstural cycle for 12 months) will be enrolled by their primary care physician at Kaiser Permanente facilities spread over 9 states.
+		Kaiser Permanente is a managed care consortium based in northern California. It has almost 15,000 physicians operating in 650 facilities, and servesnearly 9 million members \cite{Rauber}.
+		post menopausal women (> 12 months amenorrhea) will be enrolled by their primary care physician at Kaiser Permanente facilities spread over 9 states.
 
 		Patients were randomised using a centralised allocation procedure, with both patient and physician blinded to allocation method. 
 		On identifying a possible study subject, a full physical examination and medical history was taken, and where possible validated with a central database of historical medical records maintained by Kaiser Permanente.
+		After eligibility was established, an auto generated email containing patient information was sent to a server maintained in the researchers office at Kaiser Permanente's headquarters in Oakland, California. 
+		This computer used a schedule of random numners generated from atmoshperic noise \cite{Eddelbuettel2009}  and study participants were allocated to one of the four groups basd on this number.
+		The result of this allocation was returned to the physician in an email with a number 1-4 and the appropriate treatment initiated.
+		The allocation, general patient details, and source and timsetamp of the allocation request were recorded and compared to doctors own records of assignment to ensure accuracy.
 
 	\subsection{Statistical Evaluation}
 		Cox proportional hazard models were used with time to event as response and various covariates discussed above as predictors, with a household level random effect included.
 		The baseline hazard was modified to follow a weibull distribution to reflect the time dependence of risk for cryptosporidiosis, with an increased risk occurring with the presence of young calves following calving start date. 
 		Incidence density rates were calculated for all strata of the covariates with findings indicated in \hyperref[table2]{Table 2}.
+		All statistical analysis were completed in R \cite{RCoreTeam2012}.
 
 
 
@@ -54,6 +71,9 @@
 	\subsection{Strengths and Limitations}
 		Data quality was a strenth of this study.
 		Cross validating the patients oral medical histories with the actual recorded histories from the Kaiser Permanente central databases ensures accuracy and reduces recall bias.
+		Allocation of participants to study groups was entirely random and repeatable, and the comparison of allocation and actual treatment records allowed analysis to be undertaken on an accurate intention to treat basis. 
+
+		Blinding 
 		
 	\section{Figures}
 
@@ -87,7 +107,7 @@
 
 \clearpage
 \bibliographystyle{unsrt}
-\bibliography{women}
+\bibliography{wom}
 
 
 
