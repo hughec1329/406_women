@@ -1,0 +1,86 @@
+# MPM406 - RCT notes
+# 20130309 HCrockford
+#
+
+# all to prevent bias
+random selection prevents selection bias
+masking prevents observer bias.
+
+use placebo or second treatment 
+# placebo for physchological treatemtn
+# or other treatment group
+
+placebo must be as good as curretn treatemtn
+
+howw to maximise comliance
+make easy to take
+easy pills
+no side effect.
+need to assess - biologic meaasure
+
+table 1 - goups are similar on things you can measure, hx disease, bmi.
+
+cox - time to event - person time is measured.
+hazard - and compare hazard ratio
+must use intetnion to treat rather than compliance.
+
+need stopping rules
+need to stop if outcome is clear each way - need to look at data mid way - peeks.
+adjust p's for multiple looks - 
+if know sig benefit/risk can continue?
+
+factorial
+two drugs, two placebos
+
+sample size
+how many rx groupd, ex frequensy - dichot/continous
+two sided.
+
+===========================
+prior mp women protectd
+post mp FSH up, E2 down
+
+pre - normal monthly
+peri - not monthly, but last less than one year
+post - none for 1 year
+
+assume all e2's and p4s are same
+
+if have uterus need p4 and e2, if no uterus just e2
+	most often take e and p daily together - e alone puts at risk
+
+Route
+non oral re
+transdermal
+
+need to consider each womens individual risk factors
+
+goal reduce fractures BMS, with minimal risk ar lowest dose and proper time intiate
+
+indicators 
+
+interactions
+some people benefit vs others
+
+
+############
+# assignemtn
+#
+# use email bot? phon ebot - compare assigned to actual reported.
+# # using atmospheric random numbe rgenerator
+#
+# two by two factorial to assess time and dose?
+#
+# validate compliance - make sure taking w blood test - tolerance?
+# # small sample?
+#
+# need blind/placebo start at same time?
+# # give all participants vitamins, some estrogen - ethics?
+# # send out packs of pills so no dr/.nurse knows if rx or not.
+# ## chack cant tell diff w consumer trial.
+# 
+## can all start at same time and swap treatments to e2 at diff times.
+#side efects of rx unmask - bleed?
+#mask data analyst too
+#
+#flowchart like in lecture slides - clintrial shrt
